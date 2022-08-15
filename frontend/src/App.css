@@ -1,0 +1,27 @@
+.clearfix:after {
+    content: " "; 
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+ }
+ 
+ #wrapper {
+    width: fit-content;
+    border: none;
+    position: relative;
+    float: left;
+    }
+    #first {
+    width: 950px;
+    border: none;
+    position: relative;
+    float: left;
+    
+    }
+    #second {
+    border: none;
+    position: relative;
+    float: left;
+    width: 300px;
+    }
